@@ -141,6 +141,8 @@ h2 {
 
 h3 {
     color: oklch(0.6 0.114 310.1 / 50.48%);
+    padding-bottom: 0.3em;
+    text-decoration: underline;
 }
 
 .port-text {
