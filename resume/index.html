@@ -1,86 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel = "stylesheet" href = 'style.css'>
+    <link rel = "stylesheet" href = '../style.css'>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nghi Sam: Resume</title>
 </head>
 <body>
-    <h1>Nghi Sam</h1>
-    <h2>Data Scientist</h2>
     <nav>
-        <ul>
+        <ul class = 'ul-nav'>
             <li><a href = '../index.html'>Home</a></li>
             <li><a href = '../projects/index.html'>Projects</a></li>
             <li><a href = '../contact/index.html'>Contact</a></li>
             <li><a href = 'https://github.com/nsam160' target = '_blank'>Profile</a></li>
-            <li><a href = 'index.html'>Resume</a></li>
+            <li><a class = 'current'>Resume</a></li>
         </ul>
     </nav>
 
+    <h1 class = 'resume-name'>Nghi Sam</h1>
+    <h2 class = 'resume-role'>Data Scientist</h2>
     <section>
         <h3><header>Summary</header></h3>
         <p>
-            A data-driven third-year student at UCSD seeking to improve 
-            herself everyday and learn new things. Having done a few amazing
+            A data-driven third-year student at UCSD who strives to improve 
+            herself everyday by learning new things. Having done a few amazing
             individual and group guided data science cycle projects, 
-            I am seeking opportunity to apply and improve skill sets relating
+            I am seeking new opportunities to apply and improve my current skill sets relating
             to data visualization, programming, communication, and other data 
             science skills.
         </p>
     </section>
 
-    <section>
-        <h3><header>Contact Details</header></h3>
-        <ul>
-            <li>(626) 872-7513</li>
-            <li>nvsam@ucsd.edu</li>
-            <li>Los Angeles, CA</li>
-        </ul>
-    </section>
+    <div class = 'parent'>
+        <div class = 'child' id = 'first-child'>
+            <section>
+                <h3><header>Contact Details</header></h3>
+                <ul>
+                    <li class = 'email'>nvsam@ucsd.edu</li>
+                    <li class = 'phone'>(626) 872-7513</li>
+                    <li class = 'location'>Los Angeles, CA</li>
+                </ul>
+            </section>
 
-    <section>
-        <h3><header>Education</header></h3>  
+            <section>
+                <h3><header>Education</header></h3>  
 
-        <article>
-            <b><header>Bachelor of Science in Data Science</header></b>
-            University of California - San Diego<br>
-            <time datetime="2024-09">Sep 2024</time> - <time datetime="2025">Present</time>
-        </article>
+                <article>
+                    <b><header>Bachelor of Science in Data Science</header></b>
+                    University of California - San Diego<br>
+                    <time datetime="2024-09">Sep 2024</time> - <time datetime="2025">Present</time>
+                </article>
 
-        <br>
+                <article class = 'second-plus'>
+                    <b><header>Associate of Science in Natural Science</header></b>
+                    Pasadena City College<br>
+                    <time datetime="2021-08">Aug 2021</time> - <time datetime="2024-06">Jun 2024</time>
+                </article>
+            </section>
+        </div>
 
-        <article>
-            <b><header>Associate of Science in Natural Science</header></b>
-            Pasadena City College<br>
-            <time datetime="2021-08">Aug 2021</time> - <time datetime="2024-06">Jun 2024</time>
-        </article>
-    </section>
+        <div class = 'child'>
+            <section>
+                <h3><header>Skills</header></h3>
+                <ul>
+                    <li>Advanced C++</li>
+                    <li>Advance Python</li>
+                    <li>Critical Thinking</li>
+                    <li>Active Listening</li>
+                    <li>Detail Oriented</li>
+                    <li>Teamwork and Collaboration</li>
+                    <li>Organizational Skills</li>
+                    <li>Time Management</li>
+                </ul>
+            </section>
+        </div>
+    </div>    
 
     <section>
         <h3><header>Work Experience</header></h3>
 
         <article>
             <b><header>EOP&S Student Worker</header></b>
-            <br>Pasadena City College<br>
-            <time datetime="2023-08">Aug 2023</time> - <time datetime="2024-06">Jun 2024</time><br>
-            <p>
-                Guide financially-struggling students to get the resources
-                they need and answer any questions they have.
-            </p>
+            Pasadena City College<br>
+            <time datetime="2023-08">Aug 2023</time> - <time datetime="2024-06">Jun 2024</time>
+            <br>Guide financially-struggling students to get the resources
+            they need and answer any questions they have.
         </article>
 
-        <br>
-
-        <article>
+        <article class = 'second-plus'>
             <b><header>Adult ESL Tutor</header></b>
-            <br>Monterey Park Bruggemeyer Library<br>
+            Monterey Park Bruggemeyer Library<br>
             <time datetime="2023-08">Aug 2023</time> - <time datetime="2024-06">Jun 2024</time>
-            <p>
-                Tutored newly-immigranted adults who struggles to adapt to the 
-                society due to langauge barrier.
-            </p>
+            <br>Tutored newly-immigranted adults who struggles to adapt to the 
+            society due to langauge barrier.
         </article>
     </section>
 
@@ -89,7 +101,7 @@
 
         <article>
             <b><header><a href = 'https://github.com/nsam160/Mental_Health_Factors' target = '_blank'>Factors Influencing Depression Among College Students: A Study on Lifestyle Social Support, and Financial Stress</a></header></b>
-            <br>Group Programmer and Visualizer<br>
+            Group Programmer and Visualizer<br>
             <ul>
                 <li>Create many visualization to show the relationship between different factors to the mental health rating of college students</li>
                 <li>Used a random forest classifier to evaluate whether the students' depression is high or low and seek out the features that were important to creating the classifier</li>
@@ -97,9 +109,9 @@
             </ul>
         </article>
 
-        <article>
+        <article class = 'second-plus'>
             <b><header><a href = 'https://github.com/nsam160/recipes_rating' target = '_blank'>Relationship Between Time Spent Cooking vs Ratings of a Recipe</a></header></b>
-            <br>Creator<br>
+            Creator<br>
             <ul>
                 <li>Research about recipe's data on 'food.com' creating visualization connecting recipes, to nutrition values, to the time spent to cook the recipe</li>
                 <li>Develop a hypothesis test between whether or not the cooking time significant impact recipe's rating</li>
@@ -109,24 +121,10 @@
     </section>
 
     <section>
-        <h3><header>Skills</header></h3>
-        <ul>
-            <li>Advanced C++</li>
-            <li>Advance Python</li>
-            <li>Critical Thinking</li>
-            <li>Active Listening</li>
-            <li>Detail Oriented</li>
-            <li>Teamwork and Collaboration</li>
-            <li>Organizational Skills</li>
-            <li>Time Management</li>
-        </ul>
-    </section>
-
-    <section>
         <h3><header>Langauges</header></h3>
         <ul>
-            <li>Advance English</li>
-            <li>Imtermediate Vietnamese</li>
+            <li>Advanced English</li>
+            <li>Intermediate Vietnamese</li>
             <li>Beginner Cantonese</li>
             <li>Beginner Chinese</li>
         </ul>
