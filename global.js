@@ -59,11 +59,11 @@ select.addEventListener('input', function (event) {
 });
 
 let pages = [
-    { url: 'index.html', title: 'Home' },
-    { url: 'projects/index.html', title: 'Projects' },
+    { url: '', title: 'Home' },
+    { url: 'projects/', title: 'Projects' },
     // add the rest of your pages here
-    { url: 'contact/index.html', title: 'Contact' },
-    { url: 'resume/index.html', title: 'Resume' },
+    { url: 'contact/', title: 'Contact' },
+    { url: 'resume/', title: 'Resume' },
     { url: 'https://github.com/nsam160', title: 'Profile' },
 ];
 
