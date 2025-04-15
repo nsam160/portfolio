@@ -1,6 +1,6 @@
 html {
-  --color-accent: oklch(0.6 0.0926 310.1);
-  accent-color: var(--color-accent);
+    --color-accent: oklch(0.6 0.0926 310.1);
+    accent-color: var(--color-accent);
 }
 
 body {
@@ -15,12 +15,12 @@ body {
     padding: 10px;
 }
 
-ul.ul-nav {
+/* ul.ul-nav {
     display: contents;
     li {
         display: contents;
     }
-}
+} */
 
 form {
     display: grid;
@@ -34,15 +34,7 @@ form {
     }
 }
 
-input {
-    font: inherit;
-}
-
-textarea {
-    font: inherit;
-}
-
-button {
+input, textarea, button, select {
     font: inherit;
 }
 
@@ -77,16 +69,18 @@ form {
 **/
 
 nav {
+    --border-color: oklch(50% 10% 200 / 40%);
+
     display: flex;
     margin-bottom: 20px;
     border-bottom-width: 1px;
     border-bottom-style: solid;
-    border-bottom-color: oklch(80% 3% 200);
+    border-bottom-color: var(--border-color);
 
     a.current {
         border-bottom-width: 0.4em;
         border-bottom-style: solid;
-        border-bottom-color: oklch(85% 3% 200);
+        border-bottom-color: var(--border-color);
         padding: 0.4em + 1px;
     }
 
@@ -102,7 +96,7 @@ nav {
         border-bottom-width: 0.4em;
         border-bottom-style: solid;
         border-bottom-color: var(--color-accent);
-        background-color: oklch(from var(--color-accent) 95% 5% h);
+        background-color: color-mix(in oklch, var(--color-accent), canvas 85%);
     }
 }
 
@@ -212,7 +206,7 @@ section {
     a:hover {
         text-decoration: underline;
         text-decoration-color: var(--color-accent);
-        background-color: oklch(from var(--color-accent) 95% 5% h);
+        background-color: color-mix(in oklch, var(--color-accent), canvas 85%);
     }
 }
 
@@ -233,4 +227,12 @@ section {
   
 .child:first-child {
     margin-right: 20px;
+}
+
+.color-scheme {
+    position: absolute;
+    top: 1px;
+    right: 25px;
+    font-size: 55%;
+    font-family: inherit;
 }

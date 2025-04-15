@@ -8,22 +8,19 @@
     <title>Nghi Sam: Contact</title>
 </head>
 <body>
-    <nav>
+    <!-- <nav>
         <ul class = 'ul-nav'>
             <li><a href = '../index.html'>Home</a></li>
             <li><a href = '../projects/index.html'>Projects</a></li>
-            <li><a class = 'current'>Contact</a></li>
+            <li><a href = 'index.html'>Contact</a></li>
             <li><a href = 'https://github.com/nsam160' target = '_blank'>Profile</a></li>
             <li><a href = '../resume/index.html'>Resume</a></li>
         </ul>
-    </nav>
+    </nav> -->
 
     <h1>Contact</h1>
-    <form action = 'mailto:nvsam@ucsd.edu' method = 'get' enctype = 'text/plain'>
-        <label>
-            Email: 
-            <input name = 'email' type = 'email'>
-        </label>
+    <form class = 'email' action = 'mailto:nvsam@ucsd.edu' method = 'GET'>
+        
 
         <label>
             Subject: 
@@ -37,5 +34,7 @@
 
         <button>Submit ✉</button>
     </form>
+
+    <script type = 'module' src = '../global.js'></script>
 </body>
 </html>
