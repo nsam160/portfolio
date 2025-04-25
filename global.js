@@ -144,12 +144,10 @@ export function renderProjects(project, containerElement, headingLevel = 'h2') {
     containerElement.innerHTML = '';
 
     const isGithub = window.location.hostname.includes('github.io');
-    const repoName = 'nsam160';
+    const repoName = 'portfolio';
     const basePath = isGithub ? `/${repoName}/` : '/';
 
     for (const p of project){
-        
-
         const article = document.createElement('article');
         const title = p.title || 'Untitled Project';
         let image = null
