@@ -143,10 +143,22 @@ export function renderProjects(project, containerElement, headingLevel = 'h2') {
 
     containerElement.innerHTML = '';
 
+    const isGithub = window.location.hostname.includes('github.io');
+    const repoName = 'nsam160';
+    const basePath = isGithub ? `/${repoName}/` : '/';
+
     for (const p of project){
+        
+
         const article = document.createElement('article');
         const title = p.title || 'Untitled Project';
-        const image = p.image || 'https://vis-society.github.io/labs/2/images/empty.svg';
+        let image = null
+        if ((p.image) && (p.image !== "https://dsc106.com/labs/lab02/images/empty.svg")){
+            image = basePath + p.image
+        }
+        else {
+            image = "https://dsc106.com/labs/lab02/images/empty.svg";
+        }
         const description = p.description || 'No description available.';
 
         article.innerHTML = `
