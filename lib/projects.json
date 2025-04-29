@@ -2,13 +2,13 @@
     {
         "title": "Deception VS. Persuasion",
         "year": "2025",
-        "image": "images/Project2.png",
+        "image": "images/project2.png",
         "description": "A project to design two visualization to persuade audience to believe both truth, when only one truth exist. Here, the actual truth shows that increase female enrollment to tertiary school, gradually cause a population growth decline."
     },
     {
         "title": "Nutrition ",
         "year": "2025",
-        "image": "images/Project1.png",
+        "image": "images/project1.png",
         "description": "Visualization design to show how one type of food, listed as baby food, have extremely odd nutrition values amongst other baby food."
     },
     {
@@ -26,43 +26,43 @@
     {
         "title": "BST Interactive Visualizer",
         "year": "2024",
-        "image": "images/bst.jpg",
+        "image": "images/bst.png",
         "description": "Visualization project to display what the BST tree algorithm is like with functions like insert and remove. This was made with C++ and SFML."
     },
     {
         "title": "Graph Interactive Visualizer",
         "year": "2024",
-        "image": "images/graph.jpg",
+        "image": "images/graph.png",
         "description": "Visualization project to display what the graph algorithm is like with functions to add vertex or make edits to graph edges. This was made with C++ and SFML."
     },
     {
         "title": "Hash Table Interactive Visualizer",
         "year": "2024",
-        "image": "images/hash_table.jpg",
+        "image": "images/hashtable.png",
         "description": "Visualization project to display hash table algorithm with remove and insert functions. This was made with C++ and SFML."
     },
     {
         "title": "Linked List Interactive Animation Visualizer",
         "year": "2024",
-        "image": "images/linked_list.jpg",
+        "image": "images/linkedlist.png",
         "description": "Animation project to display doubly linked list algorithm with various insert and remove node. This was made with C++ and SFML."
     },
     {
         "title": "Mergesort Animation",
         "year": "2024",
-        "image": "images/mergesort.jpg",
+        "image": "images/mergesort.png",
         "description": "Animation project to display the way a mergesort algorithm work. This was made with C++ and SFML."
     },
     {
         "title": "Quicksort Animation",
         "year": "2024",
-        "image": "images/quicksort.jpg",
+        "image": "images/quicksort.png",
         "description": "Animation project to display the way a quicksort algorithm work. This was made with C++ and SFML."
     },
     {
         "title": "Advocating For Ocean Cleaning",
         "year": "2021",
-        "image": "images/girlswhocode.jpg",
+        "image": "images/girlswhocode.png",
         "description": "First HTML, CSS, and JavaScript project with GirlsWhoCode summer immersion program focused on cleanup ."
     },
     {
