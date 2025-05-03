@@ -25,8 +25,8 @@ jobs:
 
       - name: Commit and Push
         run: |
-          git config --local user.email "nvsam@ucsd.edu"
-          git config --local user.name "nsam160"
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
           mkdir -p meta
           git pull
           git add -f meta/loc.csv
