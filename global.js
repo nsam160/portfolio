@@ -160,28 +160,14 @@ export function renderProjects(project, containerElement, headingLevel = 'h2') {
         }
         const description = p.description || 'No description available.';
 
-        if (p.url){
-            article.innerHTML = `
-                <${headingLevel}>${title}</${headingLevel}>
-                <a href=${p.url} target="_blank">
-                    <img src="${image}" alt="${title}">
-                </a>
-                <div>
-                    <p>${description}</p>
-                    <i>c. ${p.year}</i>
-                </div>
-            `;
-        }
-        else {
-            article.innerHTML = `
-                <${headingLevel}>${title}</${headingLevel}>
-                <img src="${image}" alt="${title}">
-                <div>
-                    <p>${description}</p>
-                    <i>c. ${p.year}</i>
-                </div>
-            `;
-        }
+        article.innerHTML = `
+            <${headingLevel}>${title}</${headingLevel}>
+            <img src="${image}" alt="${title}">
+            <div>
+                <p>${description}</p>
+                <i>c. ${p.year}</i>
+            </div>
+        `;
 
         containerElement.appendChild(article);
     }
