@@ -1,74 +1,94 @@
 [
     {
+        "title": "Mouse Estrous Cycle Visualization",
+        "year": "2025",
+        "image": "images/project_3.png",
+        "description": "An interactive visualization design for user to discover new things about the female mice's activity and temperature at each stage of estrus.",
+        "url": "https://nsam160.github.io/Project-3/"
+
+    },
+    {
+        "title": "Bikewatching",
+        "year": "2025",
+        "image": "images/lab_7.png",
+        "description": "A visualization designed to display the bike traffics in and out of the Boston area",
+        "url": "https://nsam160.github.io/bikewatching/"
+    },
+    {
         "title": "Deception VS. Persuasion",
         "year": "2025",
         "image": "images/project_2.png",
-        "description": "A project to design two visualization to persuade audience to believe both truth, when only one truth exist. Here, the actual truth shows that increase female enrollment to tertiary school, gradually cause a population growth decline."
+        "description": "A project to design two visualization to persuade audience to believe both truth, when only one truth exist. Here, the actual truth shows that increase female enrollment to tertiary school, gradually cause a population growth decline.",
+        "url": "https://nsam160.github.io/Project_2_Persuasive_Deceptive/"
     },
     {
         "title": "Nutrition ",
         "year": "2025",
         "image": "images/project_1.png",
-        "description": "Visualization design to show how one type of food, listed as baby food, have extremely odd nutrition values amongst other baby food."
+        "description": "Visualization design to show how one type of food, listed as baby food, have extremely odd nutrition values amongst other baby food.",
+        "url": ""
     },
     {
         "title": "Factors To Depression",
         "year": "2025",
         "image": "images/cogs108.png",
-        "description": "Research project to show which factor contributes most to a student's deteriorating mental health."
+        "description": "Research project to show which factor contributes most to a student's deteriorating mental health.",
+        "url": "https://github.com/nsam160/Mental_Health_Factors"
     },
     {
         "title": "Cooking Time VS. Ratings",
         "year": "2025",
         "image": "images/dsc80.png",
-        "description": "Research regarding whether slower cooking time correlates to higher recipe ratings, due to the fact that some people might have busier schedule so they can't afford to cook for long."
+        "description": "Research regarding whether slower cooking time correlates to higher recipe ratings, due to the fact that some people might have busier schedule so they can't afford to cook for long.",
+        "url": "https://nsam160.github.io/recipes_rating/"
     },
     {
         "title": "BST Interactive Visualizer",
         "year": "2024",
         "image": "images/bst.png",
-        "description": "Visualization project to display what the BST tree algorithm is like with functions like insert and remove. This was made with C++ and SFML."
+        "description": "Visualization project to display what the BST tree algorithm is like with functions like insert and remove. This was made with C++ and SFML.",
+        "url": ""
     },
     {
         "title": "Graph Interactive Visualizer",
         "year": "2024",
         "image": "images/graph.png",
-        "description": "Visualization project to display what the graph algorithm is like with functions to add vertex or make edits to graph edges. This was made with C++ and SFML."
+        "description": "Visualization project to display what the graph algorithm is like with functions to add vertex or make edits to graph edges. This was made with C++ and SFML.",
+        "url": ""
     },
     {
         "title": "Hash Table Interactive Visualizer",
         "year": "2024",
         "image": "images/hashtable.png",
-        "description": "Visualization project to display hash table algorithm with remove and insert functions. This was made with C++ and SFML."
+        "description": "Visualization project to display hash table algorithm with remove and insert functions. This was made with C++ and SFML.",
+        "url": ""
     },
     {
         "title": "Linked List Interactive Animation Visualizer",
         "year": "2024",
         "image": "images/linkedlist.png",
-        "description": "Animation project to display doubly linked list algorithm with various insert and remove node. This was made with C++ and SFML."
+        "description": "Animation project to display doubly linked list algorithm with various insert and remove node. This was made with C++ and SFML.",
+        "url": ""
     },
     {
         "title": "Mergesort Animation",
         "year": "2024",
         "image": "images/mergesort.png",
-        "description": "Animation project to display the way a mergesort algorithm work. This was made with C++ and SFML."
+        "description": "Animation project to display the way a mergesort algorithm work. This was made with C++ and SFML.",
+        "url": ""
     },
     {
         "title": "Quicksort Animation",
         "year": "2024",
         "image": "images/quicksort.png",
-        "description": "Animation project to display the way a quicksort algorithm work. This was made with C++ and SFML."
+        "description": "Animation project to display the way a quicksort algorithm work. This was made with C++ and SFML.",
+        "url": ""
     },
     {
         "title": "Advocating For Ocean Cleaning",
         "year": "2021",
         "image": "images/girlswhocode.png",
-        "description": "First HTML, CSS, and JavaScript project with GirlsWhoCode summer immersion program focused on cleanup ."
-    },
-    {
-        "title": "Repudiandae esse eaque at.",
-        "year": "2021",
-        "image": "https://dsc106.com/labs/lab02/images/empty.svg",
-        "description": "Dicta numquam incidunt dolorem vel exercitationem officiis, pariatur voluptates vero architecto, laudantium hic quaerat expedita quod deserunt ad! Sunt, veniam numquam cumque quisquam ipsa id voluptatem praesentium ducimus excepturi reprehenderit?"
+        "description": "First HTML, CSS, and JavaScript project with GirlsWhoCode summer immersion program focused on cleanup .",
+        "url": ""
     }
 ]

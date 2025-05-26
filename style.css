@@ -516,7 +516,7 @@ path {
     margin-left: auto;
 }
 
-.files {
+/* .files {
     display: grid;
     grid-template-columns: auto 1fr;
     gap: 0.25em 1em;
@@ -538,7 +538,7 @@ path {
 .files dd {
     grid-column: 2;
     margin: 0;
-}
+} */
 
 .line {
     display: flex;
@@ -548,7 +548,7 @@ path {
     border-radius: 50%;
 }
 
-.files div dd {
+/* .files div dd {
     grid-column: 2;
     display: flex;
     flex-wrap: wrap;
@@ -557,26 +557,100 @@ path {
     gap: 0.15em;
     padding-top: 0.6em;
     margin-left: 0;
-}
+} */
 
-.files div dt small {
+#files div dt small {
     display: block;
     font-size: 0.75em;
     opacity: 0.6;
     margin-top: 0.1em;
 }
 
-#scrollytelling {
-    display: flex;
-    /* grid-column: 1 / -1;
+#files {
     display: grid;
-    grid-template-columns: subgrid; */
+    grid-template-columns: 1fr 4fr;
+
+    > div {
+        grid-column: 1 / -1;
+        display: grid;
+        grid-template-columns: subgrid;
+    }
+
+    dt {
+        grid-column: 1;
+        margin-right: 1em;
+    }
+
+    dd {
+        grid-column: 2;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: start;
+        align-content: start;
+        gap: 0.15em;
+        padding-top: 0.6em;
+        margin-left: 0;
+    }
+}
+
+.loc {
+    display: flex;
+    width: 0.5em;
+    aspect-ratio: 1;
+    background: steelblue;
+    border-radius: 50%;
+}
+
+#scrolly-1 {
+    position: relative;
+    display: flex;
+    gap: 1rem;
+
+    > * {
+        flex: 1;
+    }
+}
+
+#scatter-story {
+    position: relative;
+}
+
+#scatter-plot {
+    position: sticky;
+    top: 0;
+    left: 0;
+    bottom: auto;
+    height: 50vh;
+}
+
+#scrolly-2 {
+    position: relative;
+    display: flex;
+    gap: 1rem;
+
+    > * {
+        flex: 1;
+    }
+}
+
+#scatter-story-2 {
+    position: relative;
+}
+
+#file-plot {
+    position: sticky;
+    top: 0;
+    left: 0;
+    bottom: auto;
+    height: 50vh;
+}
+
+/* #scrollytelling {
+    display: flex;
     gap: 1em;
 }
 
-/* feel free to play with this to make your scrolly more seemless with your plot */
 #scroll-container {
-    /* grid-column: 1; */
     flex: 1;
     position: relative;
     width: 100%;
@@ -588,15 +662,10 @@ path {
 
 #scrollytelling2 {
     display: flex;
-    /* grid-column: 1 / -1;
-    display: grid;
-    grid-template-columns: subgrid; */
     gap: 1em;
 }
 
-/* feel free to play with this to make your scrolly more seemless with your plot */
 #scroll-container2 {
-    /* grid-column: 1; */
     flex: 1;
     position: relative;
     width: 100%;
@@ -607,7 +676,6 @@ path {
 }
 
 #chart-info {
-    /* grid-column: 2; */
     flex: 1;
 }
 
@@ -625,7 +693,7 @@ path {
     top: 0;
     left: 0;
     width: 100%;
-    background: none; /* transparent */
+    background: none; 
     pointer-events: none;
 }
 
@@ -634,7 +702,7 @@ path {
     top: 0;
     left: 0;
     width: 100%;
-    background: none; /* transparent */
+    background: none;
     pointer-events: none;
 }
 
@@ -651,4 +719,4 @@ path {
     box-sizing: border-box;
     border-bottom: 2px solid #eee;
     margin-bottom: auto;
-}
+} */
